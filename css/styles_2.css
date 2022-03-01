@@ -2,3 +2,12 @@
 #introduce {
     background: linear-gradient(45deg, rgb(22, 66, 185), deepSkyBlue);
 }
+
+.text_box {
+    
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-size: 1.5rem;
+}

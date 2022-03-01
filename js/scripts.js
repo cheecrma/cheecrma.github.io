@@ -32,3 +32,32 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+// 타이핑 애니메이션 작성
+const content = "cheese_cream_mayonnaise";
+const text = document.querySelector(".text");
+let i = 0;
+
+function typing(){
+    if (i < content.length) {
+    let txt = content.charAt(i);
+    text.innerHTML += txt;
+    i++;
+    }
+}
+setInterval(typing, 200)
+
+// // 타이핑 애니메이션 2줄 작성
+// const content = "Hi. \n hello";
+// const text = document.querySelector(".text");
+// let i = 0;
+
+// function typing(){
+//     let txt = content[i++];
+//     text.innerHTML += txt=== "\n" ? "<br/>": txt;
+//     if (i > content.length) {
+//         text.textContent = "";
+//         i = 0;
+//     }
+// }
+// setInterval(typing, 200)
