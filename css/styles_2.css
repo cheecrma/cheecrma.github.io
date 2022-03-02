@@ -11,3 +11,19 @@
     height: 30px;
     font-size: 1.5rem;
 }
+
+/* .blink {
+    animation: blink 0.5s infinite;
+    font-size: 2rem;
+}
+
+@keyframes blink {
+    to {
+        opacity: 0;
+    }
+} */
+
+
+#ending {
+    background: linear-gradient(45deg, rgb(106, 199, 163),  rgb(22, 166, 185));
+}
